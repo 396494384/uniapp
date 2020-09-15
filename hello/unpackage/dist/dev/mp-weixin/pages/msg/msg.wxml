@@ -1,0 +1,1 @@
+<view><view class="box1" hover-class="box1-active"><view class="box" hover-class="box-active" hover-stop-propagation="{{true}}">box1</view></view><button type="default" data-event-opts="{{[['tap',[['get',['$event']]]]]}}" bindtap="__e">get</button><view>wx</view></view>

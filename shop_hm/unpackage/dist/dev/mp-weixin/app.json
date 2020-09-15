@@ -1,0 +1,53 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/news/news",
+		"pages/cart/cart",
+		"pages/my/my",
+		"pages/detail/detail",
+		"pages/goods/goods",
+		"pages/contact/contact",
+		"pages/pics/pics",
+		"pages/videos/videos"
+	],
+	"subPackages": [],
+	"window": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "拼夕夕商城",
+		"navigationBarBackgroundColor": "#C8221E",
+		"backgroundColor": "#C8221E"
+	},
+	"tabBar": {
+		"color": "#C0C0C0",
+		"selectedColor": "#C8221E",
+		"backgroundColor": "#f5f5f5",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-active.png"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"text": "资讯",
+				"iconPath": "static/images/news.png",
+				"selectedIconPath": "static/images/news-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/images/cart.png",
+				"selectedIconPath": "static/images/cart-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "首页",
+				"iconPath": "static/images/member.png",
+				"selectedIconPath": "static/images/member-active.png"
+			}
+		]
+	},
+	"usingComponents": {},
+	"sitemapLocation": "sitemap97.json"
+}

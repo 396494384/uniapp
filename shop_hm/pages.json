@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "拼夕夕商城"
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "最新资讯"
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/detail/detail",
+			"style": {}
+		}, {
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "商品超市",
+				"onReachBottomDistance": 0,
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/contact/contact",
+			"style": {
+				"navigationBarTitleText":"联系我们"
+			}
+		}, {
+			"path": "pages/pics/pics",
+			"style": {
+				"navigationBarTitleText":"社区图片"
+			}
+		}, {
+			"path": "pages/videos/videos",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "拼夕夕商城",
+		"navigationBarBackgroundColor": "#C8221E",
+		"backgroundColor": "#C8221E"
+	},
+	"tabBar": {
+		"color": "#C0C0C0",
+		"selectedColor": "#C8221E",
+		"backgroundColor": "#f5f5f5",
+
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/images/home.png",
+			"selectedIconPath": "static/images/home-active.png"
+		}, {
+			"pagePath": "pages/news/news",
+			"text": "资讯",
+			"iconPath": "static/images/news.png",
+			"selectedIconPath": "static/images/news-active.png"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"text": "购物车",
+			"iconPath": "static/images/cart.png",
+			"selectedIconPath": "static/images/cart-active.png"
+		}, {
+			"pagePath": "pages/my/my",
+			"text": "首页",
+			"iconPath": "static/images/member.png",
+			"selectedIconPath": "static/images/member-active.png"
+		}]
+	}
+}

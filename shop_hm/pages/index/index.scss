@@ -1,0 +1,65 @@
+.index {
+	swiper {
+		width: 750rpx;
+		height: 380rpx;
+
+		.swiper-item image {
+			width: 750rpx;
+			height: 380rpx;
+		}
+	}
+
+	.nav {
+		width: 750rpx;
+		height: 240rpx;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		.nav_item {
+			width: 187.5rpx;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			align-content: center;
+
+			view {
+				width: 100rpx;
+				height: 100rpx;
+				border-radius: 100rpx;
+				background-color: $theme-color;
+				color: #fff;
+				text-align: center;
+				line-height: 100rpx;
+				font-size: 44rpx;
+			}
+
+			view.icon-tupian {
+				font-size: 38rpx;
+			}
+
+			text {
+				width: 100%;
+				text-align: center;
+				color: #666;
+				margin-top: 10rpx;
+			}
+		}
+	}
+
+	.hot_goods {
+		background-color: #f5f5f5;
+
+		.tit {
+			line-height: 90rpx;
+			background-color: #fff;
+			color: $theme-color;
+			font-size: 32rpx;
+			text-align: center;
+			border-top-width: 1px;
+			border-top-style: solid;
+			border-top-color: #eee;
+			letter-spacing: 20rpx;
+		}
+	}
+}
