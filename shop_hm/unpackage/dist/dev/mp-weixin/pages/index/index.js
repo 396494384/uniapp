@@ -136,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var List = function List() {__webpack_require__.e(/*! require.ensure | components/List */ "components/List").then((function () {return resolve(__webpack_require__(/*! @/components/List.vue */ 74));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var List = function List() {__webpack_require__.e(/*! require.ensure | components/List */ "components/List").then((function () {return resolve(__webpack_require__(/*! @/components/List.vue */ 86));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 

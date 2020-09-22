@@ -4,11 +4,12 @@
 		"pages/news/news",
 		"pages/cart/cart",
 		"pages/my/my",
-		"pages/detail/detail",
 		"pages/goods/goods",
 		"pages/contact/contact",
 		"pages/pics/pics",
-		"pages/videos/videos"
+		"pages/videos/videos",
+		"pages/new_details/new_details",
+		"pages/goods_details/goods_details"
 	],
 	"subPackages": [],
 	"window": {
@@ -49,5 +50,5 @@
 		]
 	},
 	"usingComponents": {},
-	"sitemapLocation": "sitemap97.json"
+	"sitemapLocation": "sitemap13.json"
 }

@@ -21,9 +21,6 @@
 				"navigationBarTitleText": "个人中心"
 			}
 		}, {
-			"path": "pages/detail/detail",
-			"style": {}
-		}, {
 			"path": "pages/goods/goods",
 			"style": {
 				"navigationBarTitleText": "商品超市",
@@ -44,7 +41,15 @@
 			"path": "pages/videos/videos",
 			"style": {}
 		}
-	],
+	    ,{
+            "path" : "pages/new_details/new_details",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goods_details/goods_details",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "拼夕夕商城",

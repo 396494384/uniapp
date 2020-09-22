@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "拼夕夕商城",
+  "usingComponents": {
+    "list": "/components/List"
+  }
+}

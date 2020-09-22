@@ -1,0 +1,1 @@
+<view class="goods data-v-1180045a"><list vue-id="576f0adc-1" goods="{{goods}}" class="data-v-1180045a" bind:__l="__l"></list><block wx:if="{{isNot}}"><view class="not data-v-1180045a">没有更多了</view></block></view>

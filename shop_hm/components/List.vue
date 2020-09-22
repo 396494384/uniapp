@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view class="list">
-			<navigator v-for="(item, index) in goods" :key="item.id" :url="'/pages/detail/detail?id='+item.id">
+			<navigator v-for="(item, index) in goods" :key="item.id" :url="'/pages/goods_details/goods_details?id='+item.id">
 				<image :src="item.img_url" mode="aspectFit"></image>
 				<view class="price">
 					<view class="new">{{item.sell_price}}</view>

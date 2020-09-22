@@ -56,4 +56,13 @@
 		content: "\e60d";
 	}
 	uni-page-body,#app {height: 100%;}
+	
+	.gomeImgLoad {
+		display: block;
+		width: 100% !important;
+		height: auto;
+	}
+	table{
+		width: 702rpx;
+	}
 </style>
